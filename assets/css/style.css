@@ -48,7 +48,7 @@ figcaption {
     font-weight: bold;
     padding: 5px;
     position: absolute;
-    top: 5px;
+    bottom: 5px;
     width: 100%;
 }    
 .footer {
