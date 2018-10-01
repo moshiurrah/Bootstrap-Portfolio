@@ -1,0 +1,68 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    margin-bottom: 60px; /* Margin bottom by footer height */
+    background-image: url("../../assets/images/gravel.png");
+}
+
+/** defining Container size***/
+.container {
+    width: auto;
+    max-width: 960px;
+    padding: 0 15px;
+}
+
+.header-area{
+    background-color: #f8f9fa;
+}
+
+h2{
+    color:#28a745;
+    padding:10px 0 10px 0;
+    border-bottom: 1px solid #cccccc;
+}
+/** for homepage image**/
+#home-page-img {
+    float: left;
+    
+}
+
+section {
+
+    font-family: 'Arial', Helvetica, sans-serif;
+    background-color: #ffffff;
+    border:2px solid #dddddd;
+}
+
+figure {
+    position: relative;
+    
+}
+
+figcaption {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-weight: bold;
+    padding: 5px;
+    position: absolute;
+    top: 380px;
+    width: 100%;
+}    
+.footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    height: 60px; /* Set the fixed height of the footer here */
+    line-height: 60px; /* Vertically center the text there */
+    color: #ffffff;
+    text-align: center;
+    background-color: #666666;
+    border-top: 5px solid #4aaaa5;
+}
+  
+  
+
+  
